@@ -1,0 +1,134 @@
+.home{
+    background-image:linear-gradient(rgba(212, 57, 18, 0.7),rgba(255, 63, 108, 0.7)), url(../images/events-heavenly-header.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+h1{
+    font-size: 65px;
+}
+aside {
+    position: absolute;
+    left: 0;
+    width: 40%; 
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    white-space: nowrap;
+}
+
+.side-bar {
+    height: 100vh;
+    padding: 20px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative; 
+    z-index: 1;
+}
+
+.open {
+    background-color: transparent;
+    z-index: 2;
+    position: relative;
+    left: 0;
+    top: 30%;
+}
+
+.side-bar p, .open p {
+    cursor: pointer;
+    padding: 40px;
+}
+
+.side-bar p:hover{
+    color: rgb(116, 0, 0);
+}
+
+.fa-close{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+
+.item{
+    background-color: rgba(255, 63, 108, 0.7);
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    cursor: pointer;
+}
+.details p,i{
+    margin: 0;
+    padding: 5px;
+    color: white;
+
+}
+.item-details{
+    background-color: rgba(162, 162, 162, 0.7);
+    font-size: 18px;
+    display: none;
+}
+
+
+.data{
+    color: #edf2f7;
+    background-image:linear-gradient(rgba(212, 57, 18, 0.7),rgba(255, 63, 108, 0.7)), url(../images/invitation-2508607__340.jpg);
+    background-size: cover;
+    margin-block: 20px;
+}
+.data .tim{
+    font-size: 30px;
+    border: 1px solid #f4f9ff;
+    padding:  50px;
+}
+
+.contact-info {
+    font-size: 14px;
+}
+.contact-info i {
+    margin-right: 10px;
+}
+.form-container {
+    padding: 20px;
+    border-radius: 5px;
+}
+.form-group{
+    padding: 5px;
+    margin: 10px;
+}
+
+.char-count {
+    font-size: 20px;
+    margin: 5px;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.icons i{
+    color: rgb(134, 134, 134);
+    border: rgb(175, 175, 175) 1px solid;
+    padding: 10px;
+    font-size: 18px;
+}
+.icons i:hover{
+    color: white;
+    border: 1px white solid ;
+    background-color: rgb(201, 53, 53);
+}
+.contact-info p i{
+    color: rgb(134, 134, 134);
+    font-size: 18px;
+}
+
